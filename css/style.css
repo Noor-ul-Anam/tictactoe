@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .main .header1 p {
+  font-size: 55px;
+}
+body .main .header2 p {
+  font-size: 45px;
+}
+body .main .choices img {
+  height: 150px;
+  width: 120px;
+  margin: 35px;
+}
+body .main .board {
+  background-color: whitesmoke;
+  height: 500px;
+  width: 600px;
+  margin: 50px;
+}
+body .main .board .score {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+body .main .board .score img {
+  position: relative;
+  top: 20px;
+  left: 150px;
+  height: 25px;
+  width: 25px;
+  margin: 20px;
+}
+body .main .board .game-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  height: 320px;
+  margin: auto;
+  margin-top: 50px;
+}
+body .main .board .game-area .position {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+body .main .board .game-area .line {
+  background-color: black;
+  height: 280px;
+  width: 7px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+body .main .board .game-area #line1 {
+  position: relative;
+  top: -275px;
+  left: 85px;
+}
+body .main .board .game-area #line2 {
+  position: relative;
+  top: -275px;
+  left: 170px;
+}
+body .main .board .game-area #line3 {
+  position: relative;
+  top: -230px;
+  left: 116px;
+  transform: rotate(90deg);
+}
+body .main .board .game-area #line4 {
+  position: relative;
+  top: -320px;
+  left: 107px;
+  transform: rotate(90deg);
+}
+body .tile:nth-child(1) {
+  animation-delay: 0.0555555556s;
+}
+body .tile:nth-child(2) {
+  animation-delay: 0.1111111111s;
+}
+body .tile:nth-child(3) {
+  animation-delay: 0.1666666667s;
+}
+
+/*# sourceMappingURL=style.css.map */
